@@ -11,6 +11,8 @@ const ACTIONS = {
 const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json';
 // const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=ruby';
 
+// this reducer function gets called every time we call dispatch
+// dispatch, whatever we pass to it gets populated int he action variable of reducer
 function reducer(state, action){
     // action.payload.x
     switch(action.type){
